@@ -39,5 +39,7 @@ public class RegionSelector extends StackPane {
                 }
             }
         );
+
+        this.getChildren().add(regionComboBox);
     }
 }
